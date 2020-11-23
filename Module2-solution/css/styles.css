@@ -1,0 +1,93 @@
+
+
+
+/*Base styles*/
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+/*Main heading*/
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family: "Lucida Sans", sans-serif;
+  font-style: bold;
+  font-size: 48px;
+  /*color: #E09B83;*/
+  color:red;
+
+
+}
+
+/*Text information */
+.innerDiv{
+ background-color: #CBE838;
+ position: relative;
+ border: 1px solid black;
+ margin:10px;
+}
+
+
+/*Section Headings */
+p{
+  height: 30px;
+  position: absolute;
+  top:0;
+  right:0;
+  background-color: #E89A38; 
+  border: 1px solid black;
+   font-style: bold;
+   font-size: 25px;
+}
+
+
+
+section {
+
+  margin-top:40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lucida Sans", sans-serif;
+   font-size: 18px;
+
+
+
+}
+
+
+/********** Desktop devices  **********/
+@media (min-width: 992px) {
+  .col-lg {
+    float: left;
+    width: 33.33%;
+  }
+
+}
+
+/********** Tablet devices  **********/
+@media (min-width: 768px ) and (max-width: 991px) {
+ .col-md, .col-md-1 {
+  float: left;
+}
+.col-md {
+  width: 50%;
+}
+.col-md-1 {
+  width: 100%;
+}
+}
+
+
+
+/********** Mobile devices  **********/
+@media  (max-width: 767px) {
+  .col-sm {
+    float: left;
+    width: 100%;
+  }
+}
+
+
